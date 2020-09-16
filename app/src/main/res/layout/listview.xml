@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_width="fill_parent"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    android:background="@drawable/draw4"
+
+    android:gravity= "center_vertical|center_horizontal"
+
+    android:layout_gravity="center_vertical"
+
+
+    android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+
+    />

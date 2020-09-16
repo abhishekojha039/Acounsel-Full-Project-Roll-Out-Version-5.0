@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.edge.examfinder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_image"
+        android:label="Acounsel"
+        android:roundIcon="@drawable/logo_image"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".lets"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".finalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ActionBar.Transparent"/>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".profile"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".login" />
+        <activity
+            android:name=".bio3"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".bio2"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".bio1"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".commerce3"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".commerce2"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".commerce1"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".arts1"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".arts3"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".arts2"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".notify"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".myNotification"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".math3"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".math2"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".math1"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".myJson"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity2"  android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".developer" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".about_us" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".signup" />
+        <activity
+            android:name=".googleLogin"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".arts_fashion" />
+        <activity android:name=".arts_law" />
+        <activity android:name=".arts_man" />
+        <activity android:name=".arts_tech" />
+        <activity android:name=".arts_bach" />
+        <activity android:name=".arts_list" />
+        <activity android:name=".Commerce_CA" />
+        <activity android:name=".Commerce_BCA" />
+        <activity android:name=".Commerce_Bms" />
+        <activity android:name=".Commerce_Bba" />
+        <activity android:name=".Commerce_Bcom" />
+        <activity android:name=".Commerce_12th" />
+        <activity android:name=".Commerce_List" />
+        <activity android:name=".Rate_us" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ActionBar.Transparent"/>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".Poly_private" />
+        <activity android:name=".Poly_public" />
+        <activity android:name=".Poly_list" />
+        <activity android:name=".Mba_Mark" />
+        <activity android:name=".Mba_GOVT" />
+        <activity android:name=".B_Bank" />
+        <activity android:name=".Math_Mba_list" />
+        <activity android:name=".Math_Mba_Govt" />
+        <activity android:name=".Maths_MBA" />
+        <activity android:name=".A_list" />
+        <activity android:name=".A_Govt" />
+        <activity android:name=".A_Central" />
+        <activity android:name=".B_Govt" />
+        <activity android:name=".B_Law" />
+        <activity
+            android:name=".Main2Activity"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".B_Mtech" />
+        <activity android:name=".B_Over" />
+        <activity android:name=".B_Mba" />
+        <activity android:name=".B_defence" />
+        <activity android:name=".Math_Btech" />
+        <activity android:name=".Math_Law" />
+        <activity android:name=".Math" />
+        <activity android:name=".Math_Human" />
+        <activity android:name=".Math_Fashion" />
+        <activity android:name=".Math_Defence" />
+        <activity android:name=".Math_Engg" />
+        <activity android:name=".Math_12th" />
+        <activity android:name=".Math_List" />
+        <activity
+            android:name=".Check_Eligibility"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".myNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

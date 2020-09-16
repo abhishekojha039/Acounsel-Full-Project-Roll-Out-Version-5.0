@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Check Eligibilty" />
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/ic_notifications_none_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback" />
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item android:id="@+id/aboutus"
+                android:icon="@drawable/ic_people_outline_black_24dp"
+                android:title="About us"
+                />
+
+        </menu>
+    </item>
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Logout" />
+
+
+        </menu>
+    </item>
+
+</menu>
